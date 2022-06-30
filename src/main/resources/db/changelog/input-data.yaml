@@ -7,7 +7,7 @@ databaseChangeLog:
             tableName: transaction
             columns:
               - column:
-                  name: username
+                  name: user_name
                   value: "ali"
               - column:
                   name: amount
@@ -22,7 +22,7 @@ databaseChangeLog:
             tableName: transaction
             columns:
               - column:
-                  name: username
+                  name: user_name
                   value: "amir"
               - column:
                   name: amount
@@ -37,7 +37,7 @@ databaseChangeLog:
             tableName: transaction
             columns:
               - column:
-                  name: username
+                  name: user_name
                   value: "ali"
               - column:
                   name: amount
@@ -52,7 +52,7 @@ databaseChangeLog:
             tableName: transaction
             columns:
               - column:
-                  name: username
+                  name: user_name
                   value: "ali"
               - column:
                   name: amount
@@ -67,7 +67,7 @@ databaseChangeLog:
             tableName: transaction
             columns:
               - column:
-                  name: username
+                  name: user_name
                   value: "amir"
               - column:
                   name: amount
@@ -82,7 +82,7 @@ databaseChangeLog:
             tableName: transaction
             columns:
               - column:
-                  name: username
+                  name: user_name
                   value: "ali"
               - column:
                   name: amount
