@@ -1,0 +1,101 @@
+databaseChangeLog:
+  - changeSet:
+      id: 01
+      author: ali-v-1985
+      changes:
+        - insert:
+            tableName: transaction
+            columns:
+              - column:
+                  name: username
+                  value: "ali"
+              - column:
+                  name: amount
+                  value: "1200"
+              - column:
+                  name: amount_indicator
+                  value: "c"
+              - column:
+                  name: booked_date
+                  value: "now()"
+        - insert:
+            tableName: transaction
+            columns:
+              - column:
+                  name: username
+                  value: "amir"
+              - column:
+                  name: amount
+                  value: "1200"
+              - column:
+                  name: amount_indicator
+                  value: "c"
+              - column:
+                  name: booked_date
+                  value: "now()"
+        - insert:
+            tableName: transaction
+            columns:
+              - column:
+                  name: username
+                  value: "ali"
+              - column:
+                  name: amount
+                  value: "12"
+              - column:
+                  name: amount_indicator
+                  value: "d"
+              - column:
+                  name: booked_date
+                  value: "now()"
+        - insert:
+            tableName: transaction
+            columns:
+              - column:
+                  name: username
+                  value: "ali"
+              - column:
+                  name: amount
+                  value: "50"
+              - column:
+                  name: amount_indicator
+                  value: "d"
+              - column:
+                  name: booked_date
+                  value: "now()"
+        - insert:
+            tableName: transaction
+            columns:
+              - column:
+                  name: username
+                  value: "amir"
+              - column:
+                  name: amount
+                  value: "300"
+              - column:
+                  name: amount_indicator
+                  value: "d"
+              - column:
+                  name: booked_date
+                  value: "now()"
+        - insert:
+            tableName: transaction
+            columns:
+              - column:
+                  name: username
+                  value: "ali"
+              - column:
+                  name: amount
+                  value: "33"
+              - column:
+                  name: amount_indicator
+                  value: "d"
+              - column:
+                  name: booked_date
+                  value: "now()"
+  - changeSet:
+      id: 02
+      author: ali-v-1985
+      changes:
+        - tagDatabase:
+            tag: version_1.1

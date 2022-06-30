@@ -1,0 +1,41 @@
+databaseChangeLog:
+  - changeSet:
+      id: 01
+      author: ali-v-1985
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: username
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: amount
+                  type: int
+                  constraints:
+                    nullable: false
+              - column:
+                  name: amount_indicator
+                  type: char(1)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: booked_date
+                  type: datetime
+                  constraints:
+                    nullable: false
+            tableName: transaction
+  - changeSet:
+      id: 02
+      author: ali-v-1985
+      changes:
+        - tagDatabase:
+            tag: version_1.0
